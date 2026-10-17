@@ -50,3 +50,97 @@ print('Char at last index =', last_char)
 
 # What character is at index 10 in "Coding For All" string.
 print("Char at index 10 =", company[10])
+
+# Create an acronym or an abbreviation for the name 'Python For Everyone'.
+abbreviation = everyone.split()
+P = abbreviation[0][0]
+f = abbreviation[1][0]
+E = abbreviation[2][0]
+print('abbreviation =', P + f + E)
+
+# Create an acronym or an abbreviation for the name 'Coding For All'.
+company_split = company.split()
+C = company_split[0][0]
+F = company_split[1][0]
+A = company_split[2][0]
+print('abbreviation =', C + F + A)
+
+# Use index to determine the position of the first occurrence of C in Coding For All.
+print('First occurrence of C in Coding For All is at index', company.index('C'))
+
+# Use index to determine the position of the first occurrence of F in Coding For All.
+print('First occurrence of F in Coding For All is at index', company.index('F'))
+
+# Use rfind to determine the position of the last occurrence of l in Coding For All People.
+print('Last occurrence of l in Coding For All People', 'Coding For All People'.rfind('l'))
+
+# Use index or find to find the position of the first occurrence of the word 'because' in the following sentence: 'You cannot end a sentence with because because because is a conjunction'
+print('First occurrence of the word \'because\'', 'You cannot end a sentence with because because because is a conjunction'.index('because'))
+
+# Use rindex to find the position of the last occurrence of the word because in the following sentence: 'You cannot end a sentence with because because because is a conjunction'
+print('Last occurrence of the word \'because\'', 'You cannot end a sentence with because because because is a conjunction'.rindex('because'))
+
+# Slice out the phrase 'because because because' in the following sentence: 'You cannot end a sentence with because because because is a conjunction'
+print('You cannot end a sentence with because because because is a conjunction'[31:54])
+
+# Find the position of the first occurrence of the word 'because' in the following sentence: 'You cannot end a sentence with because because because is a conjunction'
+print('First occurrence of the word \'because\'', 'You cannot end a sentence with because because because is a conjunction'.find('because'))
+
+# Slice out the phrase 'because because because' in the following sentence: 'You cannot end a sentence with because because because is a conjunction'
+print('You cannot end a sentence with because because because is a conjunction'[31:54])
+
+# Does 'Coding For All' start with a substring Coding?
+print(company.startswith('Coding'))
+
+# Does 'Coding For All' end with a substring coding?
+print(company.endswith('Coding'))
+
+# '   Coding For All      '  , remove the left and right trailing spaces in the given string.
+print('   Coding For All      '.strip())
+
+# Which one of the following variables return True when we use the method isidentifier():
+# 30DaysOfPython
+# thirty_days_of_python
+print('30DaysofPython'.isidentifier())
+print('thirty_days_of_python'.isidentifier())
+
+# The following list contains the names of some of python libraries: ['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']. Join the list with a hash with space string.
+libraries = ['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']
+print('# '.join(libraries))
+
+# Use the new line escape sequence to separate the following sentences.
+# I am enjoying this challenge.
+# I just wonder what is next.
+print('I am enjoying this challenge.\nI just wonder what is next.')
+
+# Use a tab escape sequence to write the following lines.
+# Name      Age     Country   City
+# Asabeneh  250     Finland   Helsinki
+print('Name\tAge\tCountry\tCity\nAsabeneh  250\tFinland\tHelsinki')
+
+# Use the string formatting method to display the following:
+# radius = 10
+# area = 3.14 * radius ** 2
+# The area of a circle with radius 10 is 314 meters square.
+radius = 10
+print('radius =', radius) 
+area = 3.14 * radius ** 2
+print('area = 3.14 * radius ** 2')
+print(f'The area of a circle with radius {radius} is {area} meters square.')
+
+# Make the following using string formatting methods:
+# 8 + 6 = 14
+# 8 - 6 = 2
+# 8 * 6 = 48
+# 8 / 6 = 1.33
+# 8 % 6 = 2
+# 8 // 6 = 1
+# 8 ** 6 = 262144
+a = 8
+b = 6
+print(f'{a} + {b} = {a + b}')
+print(f'{a} - {b} = {a - b}')
+print(f'{a} / {b} = {a / b:.2f}')
+print(f'{a} % {b} = {a % b}')
+print(f'{a} // {b} = {a // b}')
+print(f'{a} ** {b} = {a ** b}')
