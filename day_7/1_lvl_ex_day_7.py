@@ -12,5 +12,11 @@ it_companies.add('Twitter')
 print('Added Twitter:', it_companies)
 
 # Insert multiple IT companies at once to the set it_companies
+it_companies.update(['Accenture', 'SAP', 'TCS', 'Infosys'])
+print('Added more companies at once:', it_companies)
+
 # Remove one of the companies from the set it_companies
+it_companies.remove('SAP')
+print('Removed SAP:', it_companies)
+
 # What is the difference between remove and discard
