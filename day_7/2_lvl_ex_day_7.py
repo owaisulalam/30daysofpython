@@ -24,3 +24,7 @@ print('B joined with A:', B_with_A)
 print('What is the symmetric difference between A and B:', A.symmetric_difference(B))
 
 # Delete the sets completely
+del A,B
+# Shows error because sets are deleted already
+# print(A)
+# print(B)
