@@ -6,6 +6,8 @@ A_and_B = A.union(B)
 print(A_and_B)
 
 # Find A intersection B
+print(A.intersection(B))
+
 # Is A subset of B
 # Are A and B disjoint sets
 # Join A with B and B with A
