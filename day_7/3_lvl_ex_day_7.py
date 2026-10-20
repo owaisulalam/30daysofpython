@@ -12,3 +12,7 @@ print('Tuple: is a collection which is ordered and unchangeable or unmodifiable(
 print('Set: is a collection which is unordered, un-indexed and unmodifiable, but we can add new items to the set. Duplicate members are not allowed.')
 
 # I am a teacher and I love to inspire and teach people. How many unique words have been used in the sentence? Use the split methods and set to get the unique words.
+sentence = "I am a teacher and I love to inspire and teach people"
+sentence_split = sentence.split()
+sentence_set = set(sentence_split)
+print('Unique words =', len(sentence_set))
