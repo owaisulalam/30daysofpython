@@ -20,3 +20,6 @@ it_companies.remove('SAP')
 print('Removed SAP:', it_companies)
 
 # What is the difference between remove and discard
+print('discard() doesn\'t raise any error if the item is not present in the set but remove() does.')
+print(it_companies.discard('owais'))
+# print(it_companies.remove('owais')) #raised error 
