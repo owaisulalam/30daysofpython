@@ -9,6 +9,8 @@ print(A_and_B)
 print(A.intersection(B))
 
 # Is A subset of B
+print('Is A subset of B:', A.issubset(B))
+
 # Are A and B disjoint sets
 # Join A with B and B with A
 # What is the symmetric difference between A and B
